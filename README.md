@@ -27,12 +27,20 @@ npm install
 # Run development server
 npm run dev
 
-# Build for production
+# Build for production (static export)
 npm run build
-
-# Start production server
-npm run start
 ```
+
+## Deploy a GitHub Pages
+
+El proyecto está configurado con GitHub Actions para deploy automático:
+
+1. Habilita GitHub Pages en tu repositorio:
+   - Settings > Pages > Source: **GitHub Actions**
+
+2. Haz push a la rama `main` y el workflow se ejecutará automáticamente
+
+3. La URL será: `https://tu-usuario.github.io/Qr-app-lp/`
 
 ## Proyecto
 
